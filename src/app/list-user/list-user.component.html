@@ -1,6 +1,6 @@
 <table class="table"
 
-style="width: 70%; margin-top: 100px; border:solid;">
+style="width: 70%; margin-top: 100px; border:solid;margin-left:15%;">
     <thead >
       <tr >
         <th scope="col">#</th>
@@ -18,7 +18,7 @@ style="width: 70%; margin-top: 100px; border:solid;">
       <tr>
      
         <td>{{users.idCustomer}}</td>
-        <td>{{users.picture}}</td>
+        <td>  <img [src]="users.picture" alt="User's Picture" style="height: 70px;"></td>
         <td>{{users.firstName}}</td>
         <td>{{users.lastName}}</td>
         <td>{{users.birthDate}}</td>
@@ -29,3 +29,4 @@ style="width: 70%; margin-top: 100px; border:solid;">
     
     </tbody>
   </table> 
+  

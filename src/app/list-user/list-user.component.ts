@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { OnInit } from '@angular/core';
 import { User } from '../Model/User.model';
+import { ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-list-user',
   templateUrl: './list-user.component.html',
@@ -9,7 +10,7 @@ import { User } from '../Model/User.model';
 export class ListUserComponent implements OnInit {
   users: User[] = [];
 
-  constructor() { }
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
     this.users = [
@@ -32,7 +33,7 @@ export class ListUserComponent implements OnInit {
         accountCategory: "Customer",
         email: "marlon@brando.com",
         password: "test",
-        picture: "https://bootdey.com/img/Content/avatar/avatar2.png",
+        picture: 'https://bootdey.com/img/Content/avatar/avatar2.png',
         profession: "Software Engineer"
         },
         {
@@ -70,5 +71,10 @@ export class ListUserComponent implements OnInit {
           }
      
     ];
-  }
+    const accountCategory = this.route.snapshot.paramMap.get('accountCategory');
+
+    // Filtrez les utilisateurs en fonction de la catégorie de compte
+    if (accountCategory) {
+      this.users = this.users.filter(user => user.accountCategory === accountCategory);
+    }  }
 }
