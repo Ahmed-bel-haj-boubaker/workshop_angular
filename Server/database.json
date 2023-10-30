@@ -1,0 +1,85 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Nour",
+      "lastName": " Kunis",
+      "birthDate": "1999-06-30",
+      "accountCategory": "Admin",
+      "email": "mila@kunis.com",
+      "password": "test",
+      "picture": "https://bootdey.com/img/Content/avatar/avatar3.png",
+      "profession": "Software Engineer"
+    },
+    {
+      "id": "4",
+      "firstName": "Ryan",
+      "lastName": "Gossling",
+      "birthDate": "1999-06-30",
+      "accountCategory": "Golden",
+      "email": "Ryan@nicholson.com",
+      "password": "test",
+      "picture": "https://bootdey.com/img/Content/avatar/avatar4.png",
+      "profession": "Software Engineer"
+    },
+    {
+      "id": "5",
+      "firstName": "Robert",
+      "lastName": "Downey",
+      "birthDate": "1999-06-30",
+      "accountCategory": "Blocked Account",
+      "email": "robert@nicholson.com",
+      "password": "test",
+      "picture": "https://bootdey.com/img/Content/avatar/avatar5.png",
+      "profession": "Software Engineer"
+    },
+    {
+      "id": "6",
+      "firstName": "Mohamed",
+      "lastName": "Ben Mohamed",
+      "birthDate": "1999-06-30",
+      "email": "mohamed@esprit.tn",
+      "password": "test",
+      "profession": "Software Engineer",
+      "accountCategory": "Customer",
+      "picture": "https://bootdey.com/img/Content/avatar/avatar1.png"
+    },
+    {
+      "id": "77",
+      "firstName": "Mohamed",
+      "lastName": "Ben Mohamed",
+      "birthDate": "1999-06-30",
+      "email": "mohamed@esprit.tn",
+      "password": "test",
+      "profession": "Software Engineer",
+      "accountCategory": "Customer",
+      "picture": "https://bootdey.com/img/Content/avatar/avatar1.png"
+    },
+    {
+      "accountCategory": "Customer",
+      "id": "PX0lM9t"
+    },
+    {
+      "accountCategory": "Customer",
+      "id": "jQTzW2E"
+    },
+    {
+      "id": "1698662711104",
+      "firstName": "qeffsfsfsf",
+      "lastName": "fpesfpsfspofkspok",
+      "email": "fekpfesfpskfpsk@gmail.com",
+      "profession": "ojsiofjsfjioesfosfoisj",
+      "accountCategory": "Customer",
+      "picture": "https://bootdey.com/img/Content/avatar/avatar1.png"
+    },
+    {
+      "id": "1698662830811",
+      "firstName": "ahlmed",
+      "lastName": "ejsofjsfjios",
+      "email": "pedd@gmail.com",
+      "profession": "ahmedddfijeifjeiofjeiof",
+      "accountCategory": "Customer",
+      "picture": "https://bootdey.com/img/Content/avatar/avatar1.png"
+    }
+  ]
+}

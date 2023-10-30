@@ -1,22 +1,27 @@
+ <!-- <img src="../assets/images/slide.png"> -->
 
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>ProjetProduit</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-    <img src="../assets/images/slide.png">
+<div id="carouselExampleSlidesOnly" class="carousel slide"
+  data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="../assets/images/slide.png"
+        alt="First slide">
+    </div>
+
+  </div>
+</div>
+<!---end slide--->
+
+<!-- <form #myForm="ngForm" name="myForm" novalidate>
+
+  <label for="">Name</label> <br>
+  <input type="email" name="fn" id="fn" #fn="ngModel" ngModel required
+    minlength="5">
+  <small *ngIf="fn.invalid && fn.touched && fn.errors?.['required']">Name is
+    Required</small>
+  <small *ngIf="fn.invalid && fn.touched && fn.errors?.['minlength']">Name needs
+    5 caracters</small>
 
 
-<!-----Footer Section------>
-<footer>
-<p style="float: right">TWIN Project@2022</p>
-</footer>
-<!-----End Footer Section------>
-
-</body>
-</html>
+  <button type="submit">Save</button>
+</form> -->
